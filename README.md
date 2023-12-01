@@ -1,2 +1,2 @@
 # Team1
-This is the team of Ariyan, Nazir and Mukkaram
+This is the team of Aryan, Nazir and Mukkaram
