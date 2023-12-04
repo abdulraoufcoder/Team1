@@ -1,0 +1,72 @@
+/* CSS FOR DATA-ENTRY-PANEL 👇👇👇👇*/
+
+#dataPanelbody {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bannerPicforDataentryTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(112, 125, 250, 0.25);
+}
+
+#headerPic {
+    margin-left: 18px;
+    width: 51%;
+    mix-blend-mode: multiply;
+}
+
+input {
+    width: 100%;
+    height: 2.7rem;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #707DFA;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(189, 185, 185);
+}
+
+input[type=text]:focus {
+    border: 3px solid #707DFA;
+}
+
+.myform {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.myform h1 {
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+#submitBtnforDataentryTable {
+    width: 102%;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 23px;
+    margin: 20px 0 80px 0;
+    color: white;
+    cursor: pointer;
+    background-color: #707DFA;
+}
+
+#submitBtnforDataentryTable:hover {
+    background-color: #626fe2;
+    transition: all 0.5s;
+}
