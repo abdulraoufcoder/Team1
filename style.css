@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Customize scroll bar */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FFD700;
+    border-radius: 10px;
+
+}
+
+body::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+}
+
+
+/* Nav-Bar  Style */
+nav {
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    text-decoration: none;
+}
+
+#logo img {
+    width: 210px;
+}
+
+#nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #FFD700;
+    /* Change color on hover */
+}
+
+.active {
+    background-color: #FFD700;
+    color: black;
+    padding: 10px;
+    /* Active state color */
+}
+
+.active:hover {
+    color: #fff;
+}
+
+/* Banner  Style */
+#banner {
+    width: 100%;
+    height: 500px;
+    /* Adjust the height as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+#banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Collection-Text Style */
+
+#collection-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #333;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 30%;
+    height: auto;
+    border-radius: 16px;
+    /* margin-bottom: 10px; */
+}
+
+.card-details {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.book-button {
+    background-color: #FFD700;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.book-button:hover {
+    background-color: #333;
+    /* Change color on hover */
+    color: #FFD700;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #333;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/* CSS FOR ADMIN-PANEL-TABLE 👇👇👇👇*/
+
+
+#adminPanelbody {
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 11%;
+    padding-right: 14%;
+}
+
+.table {
+    width: 100%;
+}
+
+table {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    font-size: 23px;
+}
+
+thead {
+
+    text-align: center;
+}
+
+th {
+    width: 8%;
+    padding: 15px 0;
+    border: 1px solid rgb(153, 153, 235);
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+#headingFortable {
+    position: relative;
+    top: 42px;
+    left: 56px;
+}
+
+#addCar {
+    position: absolute;
+    top: 120px;
+    right: 206px;
+    padding: 12px 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: #707DFA;
+    color: white;
+    cursor: pointer;
+}
+
+#addCar:hover {
+    background-color: rgb(72, 87, 215)
+}
+
+.delete {
+    width: 39px;
+    height: 40px;
+    background-color: #EE3636;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.delete:hover {
+    background-color: #d32e2e;
+}
+
+.update {
+    width: 39px;
+    height: 40px;
+    background-color: #707DFA;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.update:hover {
+    background-color: rgb(72, 87, 215)
+}
+
+.pencil {
+    width: 27px;
+    height: inherit;
+}
+
+.dustbin {
+    width: 24px;
+    height: inherit;
+}
+
+/* CSS FOR DATA-ENTRY-PANEL 👇👇👇👇*/
+
+#dataPanelbody {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bannerPicforDataentryTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(112, 125, 250, 0.25);
+}
+
+#headerPic {
+    margin-left: 18px;
+    width: 51%;
+    mix-blend-mode: multiply;
+}
+
+input {
+    width: 100%;
+    height: 2.7rem;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #707DFA;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(189, 185, 185);
+}
+
+input[type=text]:focus {
+    border: 3px solid #707DFA;
+}
+
+.myform {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.myform h1 {
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+#submitBtnforDataentryTable {
+    width: 102%;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 23px;
+    margin: 20px 0 80px 0;
+    color: white;
+    cursor: pointer;
+    background-color: #707DFA;
+}
+
+#submitBtnforDataentryTable:hover {
+    background-color: #626fe2;
+    transition: all 0.5s;
+}

@@ -1,0 +1,12 @@
+{
+  "cars": [
+    {
+      "carName": "Lamborghini Urus",
+      "fuel": "100/ltr",
+      "speed": "300km/hr",
+      "price": "25000$",
+      "imageURL": "https://img.freepik.com/premium-vector/sporting-car-illustration_104045-1007.jpg?w=740",
+      "id": 1
+    }
+  ]
+}
